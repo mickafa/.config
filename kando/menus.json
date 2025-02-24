@@ -1,0 +1,357 @@
+{
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "",
+        "icon": "mode_standby",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Приложения",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "submenu",
+                "data": {},
+                "name": "Месенджеры",
+                "icon": "business_messages",
+                "iconTheme": "material-symbols-rounded",
+                "children": [
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "vk-messenger",
+                      "delayed": false
+                    },
+                    "name": "VK",
+                    "icon": "vk",
+                    "iconTheme": "simple-icons"
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "64gram-desktop",
+                      "delayed": false
+                    },
+                    "name": "Телега",
+                    "icon": "telegram",
+                    "iconTheme": "simple-icons"
+                  }
+                ]
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "lm-studio",
+                  "delayed": false
+                },
+                "name": "lm-studio",
+                "icon": "archlinux",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "submenu",
+                "data": {},
+                "name": "Бровзеры",
+                "icon": "planet",
+                "iconTheme": "material-symbols-rounded",
+                "children": [
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "chromium",
+                      "delayed": false
+                    },
+                    "name": "chromium",
+                    "icon": "googlechrome",
+                    "iconTheme": "simple-icons"
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "falkon",
+                      "delayed": false
+                    },
+                    "name": "falkon",
+                    "icon": "falcon",
+                    "iconTheme": "simple-icons"
+                  }
+                ]
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MetaLeft+KeyI",
+                  "delayed": true
+                },
+                "name": "Настройки",
+                "icon": "settings",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "kitty",
+                  "delayed": false
+                },
+                "name": "Котик",
+                "icon": "terminal",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Окна",
+            "icon": "select_window",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MetaLeft+PageUp",
+                  "delayed": true
+                },
+                "name": "Распохнуть",
+                "icon": "open_in_full",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MetaLeft+PageDown",
+                  "delayed": true
+                },
+                "name": "Свернуть",
+                "icon": "close_fullscreen",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 135
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MetaLeft+KeyQ",
+                  "delayed": true
+                },
+                "name": "Закрыть",
+                "icon": "close",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 195
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Ауидо",
+            "icon": "slow_motion_video",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MediaTrackNext",
+                  "delayed": true
+                },
+                "name": "Вперёд",
+                "icon": "skip_next",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 90
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MediaTrackPrevious",
+                  "delayed": true
+                },
+                "name": "Назад",
+                "icon": "skip_previous",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MediaPlayPause",
+                  "delayed": true
+                },
+                "name": "Пауза",
+                "icon": "play_pause",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 330
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Дельфинчик",
+            "icon": "folder",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "dolphin \"/home/trb/МГТУ/сем 6/\"",
+                  "delayed": false
+                },
+                "name": "Сем 6",
+                "icon": "work_alert",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "dolphin",
+                  "delayed": false
+                },
+                "name": "Дом",
+                "icon": "home",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "dolphin \"/home/trb/Downloads/\"",
+                  "delayed": false
+                },
+                "name": "Загрузки",
+                "icon": "download_2",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 180
+              }
+            ]
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "main",
+      "centered": false,
+      "warpMouse": false,
+      "anchored": false
+    }
+  ],
+  "templates": [
+    {
+      "type": "submenu",
+      "data": {},
+      "name": "Сем 5",
+      "icon": "threat_intelligence",
+      "iconTheme": "material-symbols-rounded",
+      "children": [
+        {
+          "type": "submenu",
+          "data": {},
+          "name": "Часто",
+          "icon": "work_alert",
+          "iconTheme": "material-symbols-rounded",
+          "children": [
+            {
+              "type": "command",
+              "data": {
+                "command": "dolphin \"/home/trb/МГТУ/сем 5/ТММ_Сащ/\"",
+                "delayed": false
+              },
+              "name": "Сащ",
+              "icon": "file_copy",
+              "iconTheme": "material-symbols-rounded"
+            },
+            {
+              "type": "command",
+              "data": {
+                "command": "dolphin \"/home/trb/МГТУ/сем 5/Основы автоматизированного проектирования_Жаргалова_Аягма/\"",
+                "delayed": false
+              },
+              "name": "Аягма",
+              "icon": "file_copy",
+              "iconTheme": "material-symbols-rounded"
+            },
+            {
+              "type": "command",
+              "data": {
+                "command": "dolphin \"/home/trb/МГТУ/сем 5/оборудование комп производств_Шляхтин/\"",
+                "delayed": false
+              },
+              "name": "Шляхтин",
+              "icon": "file_copy",
+              "iconTheme": "material-symbols-rounded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "submenu",
+      "data": {},
+      "name": "Учёба",
+      "icon": "apps",
+      "iconTheme": "material-symbols-rounded",
+      "children": [
+        {
+          "type": "submenu",
+          "data": {},
+          "name": "Сем 5",
+          "icon": "threat_intelligence",
+          "iconTheme": "material-symbols-rounded",
+          "children": [
+            {
+              "type": "submenu",
+              "data": {},
+              "name": "Часто",
+              "icon": "work_alert",
+              "iconTheme": "material-symbols-rounded",
+              "children": [
+                {
+                  "type": "command",
+                  "data": {
+                    "command": "dolphin \"/home/trb/МГТУ/сем 5/ТММ_Сащ/\"",
+                    "delayed": false
+                  },
+                  "name": "Сащ",
+                  "icon": "file_copy",
+                  "iconTheme": "material-symbols-rounded"
+                },
+                {
+                  "type": "command",
+                  "data": {
+                    "command": "dolphin \"/home/trb/МГТУ/сем 5/Основы автоматизированного проектирования_Жаргалова_Аягма/\"",
+                    "delayed": false
+                  },
+                  "name": "Аягма",
+                  "icon": "file_copy",
+                  "iconTheme": "material-symbols-rounded"
+                },
+                {
+                  "type": "command",
+                  "data": {
+                    "command": "dolphin \"/home/trb/МГТУ/сем 5/оборудование комп производств_Шляхтин/\"",
+                    "delayed": false
+                  },
+                  "name": "Шляхтин",
+                  "icon": "file_copy",
+                  "iconTheme": "material-symbols-rounded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "command",
+          "data": {
+            "command": "/home/trb/apps/ramus/start.sh",
+            "delayed": false
+          },
+          "name": "ramus",
+          "icon": "desktop_mac",
+          "iconTheme": "material-symbols-rounded"
+        }
+      ]
+    }
+  ]
+}
